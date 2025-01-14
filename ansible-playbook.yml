@@ -13,4 +13,4 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8086:8082 rajatk2611/rajat-bank:1
+    command: docker run -itd -p 8086:8081 rajatk2611/rajat-bank:1
